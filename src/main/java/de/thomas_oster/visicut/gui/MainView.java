@@ -689,8 +689,7 @@ public class MainView extends javax.swing.JFrame
    */
   @SuppressWarnings("unchecked")
   // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-  private void initComponents()
-  {
+  private void initComponents() {
     bindingGroup = new org.jdesktop.beansbinding.BindingGroup();
 
     visicutModel1 = VisicutModel.getInstance();
@@ -728,6 +727,7 @@ public class MainView extends javax.swing.JFrame
     mappingPanel = new de.thomas_oster.visicut.gui.mapping.MappingPanel();
     positionPanel = new de.thomas_oster.uicomponents.PositionPanel();
     propertiesPanel = new de.thomas_oster.visicut.gui.propertypanel.PropertiesPanel();
+    jScrollPane3 = new javax.swing.JScrollPane();
     jPanel5 = new javax.swing.JPanel();
     jLabelJobName = new javax.swing.JLabel();
     jTextFieldJobName = new javax.swing.JTextField();
@@ -788,19 +788,15 @@ public class MainView extends javax.swing.JFrame
     jSeparator3 = new javax.swing.JPopupMenu.Separator();
     aboutMenuItem = new javax.swing.JMenuItem();
 
-    visicutModel1.addPropertyChangeListener(new java.beans.PropertyChangeListener()
-    {
-      public void propertyChange(java.beans.PropertyChangeEvent evt)
-      {
+    visicutModel1.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+      public void propertyChange(java.beans.PropertyChangeEvent evt) {
         visicutModel1PropertyChange(evt);
       }
     });
 
     filesDropSupport1.setComponent(previewPanel);
-    filesDropSupport1.addPropertyChangeListener(new java.beans.PropertyChangeListener()
-    {
-      public void propertyChange(java.beans.PropertyChangeEvent evt)
-      {
+    filesDropSupport1.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+      public void propertyChange(java.beans.PropertyChangeEvent evt) {
         filesDropSupport1PropertyChange(evt);
       }
     });
@@ -826,10 +822,8 @@ public class MainView extends javax.swing.JFrame
     jButton2.setMinimumSize(new java.awt.Dimension(30, 30));
     jButton2.setName("jButton2"); // NOI18N
     jButton2.setPreferredSize(new java.awt.Dimension(35, 35));
-    jButton2.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jButton2.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jButton2ActionPerformed(evt);
       }
     });
@@ -842,10 +836,8 @@ public class MainView extends javax.swing.JFrame
     jButton1.setMinimumSize(new java.awt.Dimension(30, 30));
     jButton1.setName("jButton1"); // NOI18N
     jButton1.setPreferredSize(new java.awt.Dimension(35, 35));
-    jButton1.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jButton1.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jButton1ActionPerformed(evt);
       }
     });
@@ -858,10 +850,8 @@ public class MainView extends javax.swing.JFrame
     btFitScreen.setMinimumSize(new java.awt.Dimension(35, 35));
     btFitScreen.setName("btFitScreen"); // NOI18N
     btFitScreen.setPreferredSize(new java.awt.Dimension(35, 35));
-    btFitScreen.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    btFitScreen.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         btFitScreenActionPerformed(evt);
       }
     });
@@ -874,10 +864,8 @@ public class MainView extends javax.swing.JFrame
     bt1to1.setMinimumSize(new java.awt.Dimension(35, 35));
     bt1to1.setName("bt1to1"); // NOI18N
     bt1to1.setPreferredSize(new java.awt.Dimension(35, 35));
-    bt1to1.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    bt1to1.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         bt1to1ActionPerformed(evt);
       }
     });
@@ -892,10 +880,8 @@ public class MainView extends javax.swing.JFrame
     btQRWebcamScan.setMinimumSize(new java.awt.Dimension(35, 35));
     btQRWebcamScan.setName("btQRWebcamScan"); // NOI18N
     btQRWebcamScan.setPreferredSize(new java.awt.Dimension(35, 35));
-    btQRWebcamScan.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    btQRWebcamScan.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         btQRWebcamScanActionPerformed(evt);
       }
     });
@@ -929,10 +915,8 @@ public class MainView extends javax.swing.JFrame
     jLabel5.setName("jLabel5"); // NOI18N
 
     materialComboBox.setName("materialComboBox"); // NOI18N
-    materialComboBox.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    materialComboBox.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         materialComboBoxActionPerformed(evt);
       }
     });
@@ -941,39 +925,31 @@ public class MainView extends javax.swing.JFrame
     jLabel9.setName("jLabel9"); // NOI18N
 
     laserCutterComboBox.setName("laserCutterComboBox"); // NOI18N
-    laserCutterComboBox.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    laserCutterComboBox.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         laserCutterComboBoxActionPerformed(evt);
       }
     });
 
     btAddMaterial.setIcon(PlatformIcon.get(PlatformIcon.ADD));
     btAddMaterial.setName("btAddMaterial"); // NOI18N
-    btAddMaterial.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    btAddMaterial.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         btAddMaterialActionPerformed(evt);
       }
     });
 
     cbMaterialThickness.setName("cbMaterialThickness"); // NOI18N
-    cbMaterialThickness.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    cbMaterialThickness.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         cbMaterialThicknessActionPerformed(evt);
       }
     });
 
     btAddMaterialThickness.setIcon(PlatformIcon.get(PlatformIcon.ADD));
     btAddMaterialThickness.setName("btAddMaterialThickness"); // NOI18N
-    btAddMaterialThickness.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    btAddMaterialThickness.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         btAddMaterialThicknessActionPerformed(evt);
       }
     });
@@ -988,20 +964,16 @@ public class MainView extends javax.swing.JFrame
     jCheckBoxAutoFocus.setText(resourceMap.getString("jCheckBoxAutoFocus.text")); // NOI18N
     jCheckBoxAutoFocus.setToolTipText(resourceMap.getString("jCheckBoxAutoFocus.toolTipText")); // NOI18N
     jCheckBoxAutoFocus.setName("jCheckBoxAutoFocus"); // NOI18N
-    jCheckBoxAutoFocus.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jCheckBoxAutoFocus.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jCheckBoxAutoFocusActionPerformed(evt);
       }
     });
 
     objectComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
     objectComboBox.setName("objectComboBox"); // NOI18N
-    objectComboBox.addItemListener(new java.awt.event.ItemListener()
-    {
-      public void itemStateChanged(java.awt.event.ItemEvent evt)
-      {
+    objectComboBox.addItemListener(new java.awt.event.ItemListener() {
+      public void itemStateChanged(java.awt.event.ItemEvent evt) {
         objectComboBoxChangeHandler(evt);
       }
     });
@@ -1012,10 +984,8 @@ public class MainView extends javax.swing.JFrame
     java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("de.thomas_oster/uicomponents/resources/EditableTablePanel"); // NOI18N
     btRemoveObject.setToolTipText(bundle.getString("-")); // NOI18N
     btRemoveObject.setName("btRemoveObject"); // NOI18N
-    btRemoveObject.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    btRemoveObject.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         btRemoveObjectActionPerformed(evt);
       }
     });
@@ -1023,10 +993,8 @@ public class MainView extends javax.swing.JFrame
     btAddObject.setIcon(PlatformIcon.get(PlatformIcon.ADD_FILE));
     btAddObject.setToolTipText(bundle.getString("+")); // NOI18N
     btAddObject.setName("btAddObject"); // NOI18N
-    btAddObject.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    btAddObject.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         btAddObjectActionPerformed(evt);
       }
     });
@@ -1040,6 +1008,9 @@ public class MainView extends javax.swing.JFrame
     propertiesPanel.setName("propertiesPanel"); // NOI18N
     propertiesPanel.setLayout(new javax.swing.BoxLayout(propertiesPanel, javax.swing.BoxLayout.Y_AXIS));
     mappingTabbedPane.addTab(resourceMap.getString("propertyPanelContainer.TabConstraints.tabTitle"), propertiesPanel); // NOI18N
+
+    jScrollPane3.setName("jScrollPane3"); // NOI18N
+    mappingTabbedPane.addTab(resourceMap.getString("jScrollPane3.TabConstraints.tabTitle"), jScrollPane3); // NOI18N
 
     javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
     jPanel2.setLayout(jPanel2Layout);
@@ -1129,10 +1100,8 @@ public class MainView extends javax.swing.JFrame
 
     executeJobButton.setText(resourceMap.getString("executeJobButton.text")); // NOI18N
     executeJobButton.setName("executeJobButton"); // NOI18N
-    executeJobButton.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    executeJobButton.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         executeJobButtonActionPerformed(evt);
       }
     });
@@ -1140,10 +1109,8 @@ public class MainView extends javax.swing.JFrame
     calculateTimeButton.setText(resourceMap.getString("calculateTimeButton.text")); // NOI18N
     calculateTimeButton.setEnabled(false);
     calculateTimeButton.setName("calculateTimeButton"); // NOI18N
-    calculateTimeButton.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    calculateTimeButton.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         calculateTimeButtonActionPerformed(evt);
       }
     });
@@ -1260,10 +1227,8 @@ public class MainView extends javax.swing.JFrame
 
     newMenuItem.setText(resourceMap.getString("newMenuItem.text")); // NOI18N
     newMenuItem.setName("newMenuItem"); // NOI18N
-    newMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    newMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         newMenuItemActionPerformed(evt);
       }
     });
@@ -1272,10 +1237,8 @@ public class MainView extends javax.swing.JFrame
     openMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_MASK));
     openMenuItem.setText(resourceMap.getString("openMenuItem.text")); // NOI18N
     openMenuItem.setName("openMenuItem"); // NOI18N
-    openMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    openMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         openMenuItemActionPerformed(evt);
       }
     });
@@ -1283,10 +1246,8 @@ public class MainView extends javax.swing.JFrame
 
     importMenuItem.setText(resourceMap.getString("importMenuItem.text")); // NOI18N
     importMenuItem.setName("importMenuItem"); // NOI18N
-    importMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    importMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         importMenuItemActionPerformed(evt);
       }
     });
@@ -1307,10 +1268,8 @@ public class MainView extends javax.swing.JFrame
     saveMenuItem.setMnemonic('s');
     saveMenuItem.setText(resourceMap.getString("saveMenuItem.text")); // NOI18N
     saveMenuItem.setName("saveMenuItem"); // NOI18N
-    saveMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    saveMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         saveMenuItemActionPerformed(evt);
       }
     });
@@ -1319,10 +1278,8 @@ public class MainView extends javax.swing.JFrame
     saveAsMenuItem.setMnemonic('a');
     saveAsMenuItem.setText(resourceMap.getString("saveAsMenuItem.text")); // NOI18N
     saveAsMenuItem.setName("saveAsMenuItem"); // NOI18N
-    saveAsMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    saveAsMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         saveAsMenuItemActionPerformed(evt);
       }
     });
@@ -1330,10 +1287,8 @@ public class MainView extends javax.swing.JFrame
 
     exportGcodeMenuItem.setText(resourceMap.getString("exportGcodeMenuItem.text")); // NOI18N
     exportGcodeMenuItem.setName("exportGcodeMenuItem"); // NOI18N
-    exportGcodeMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    exportGcodeMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         exportGcodeMenuItemActionPerformed(evt);
       }
     });
@@ -1345,10 +1300,8 @@ public class MainView extends javax.swing.JFrame
     executeJobMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
     executeJobMenuItem.setText(resourceMap.getString("executeJobMenuItem.text")); // NOI18N
     executeJobMenuItem.setName("executeJobMenuItem"); // NOI18N
-    executeJobMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    executeJobMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         executeJobMenuItemActionPerformed(evt);
       }
     });
@@ -1361,10 +1314,8 @@ public class MainView extends javax.swing.JFrame
     exitMenuItem.setMnemonic('x');
     exitMenuItem.setText(resourceMap.getString("exitMenuItem.text")); // NOI18N
     exitMenuItem.setName("exitMenuItem"); // NOI18N
-    exitMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    exitMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         exitMenuItemActionPerformed(evt);
       }
     });
@@ -1392,10 +1343,8 @@ public class MainView extends javax.swing.JFrame
     zoomWindowMenuItem.setText(resourceMap.getString("zoomWindowMenuItem.text")); // NOI18N
     zoomWindowMenuItem.setToolTipText(resourceMap.getString("zoomWindowMenuItem.toolTipText")); // NOI18N
     zoomWindowMenuItem.setName("zoomWindowMenuItem"); // NOI18N
-    zoomWindowMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    zoomWindowMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         zoomWindowMenuItemActionPerformed(evt);
       }
     });
@@ -1405,10 +1354,8 @@ public class MainView extends javax.swing.JFrame
     zoomRealMenuItem.setText(resourceMap.getString("zoomRealMenuItem.text")); // NOI18N
     zoomRealMenuItem.setToolTipText(resourceMap.getString("zoomRealMenuItem.toolTipText")); // NOI18N
     zoomRealMenuItem.setName("zoomRealMenuItem"); // NOI18N
-    zoomRealMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    zoomRealMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         zoomRealMenuItemActionPerformed(evt);
       }
     });
@@ -1420,10 +1367,8 @@ public class MainView extends javax.swing.JFrame
     cameraActiveMenuItem.setText(resourceMap.getString("cameraActiveMenuItem.text")); // NOI18N
     cameraActiveMenuItem.setToolTipText(resourceMap.getString("cameraActiveMenuItem.toolTipText")); // NOI18N
     cameraActiveMenuItem.setName("cameraActiveMenuItem"); // NOI18N
-    cameraActiveMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    cameraActiveMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         cameraActiveMenuItemActionPerformed(evt);
       }
     });
@@ -1432,10 +1377,8 @@ public class MainView extends javax.swing.JFrame
     projectorActiveMenuItem.setText(resourceMap.getString("projectorActiveMenuItem.text")); // NOI18N
     projectorActiveMenuItem.setToolTipText(resourceMap.getString("projectorActiveMenuItem.toolTipText")); // NOI18N
     projectorActiveMenuItem.setName("projectorActiveMenuItem"); // NOI18N
-    projectorActiveMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    projectorActiveMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         projectorActiveMenuItemActionPerformed(evt);
       }
     });
@@ -1459,10 +1402,8 @@ public class MainView extends javax.swing.JFrame
 
     webcamQRCodeMenuItem.setText(resourceMap.getString("webcamQRCodeMenuItem.text")); // NOI18N
     webcamQRCodeMenuItem.setName("webcamQRCodeMenuItem"); // NOI18N
-    webcamQRCodeMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    webcamQRCodeMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         webcamQRCodeMenuItemActionPerformed(evt);
       }
     });
@@ -1475,10 +1416,8 @@ public class MainView extends javax.swing.JFrame
 
     calibrateCameraMenuItem.setText(resourceMap.getString("calibrateCameraMenuItem.text")); // NOI18N
     calibrateCameraMenuItem.setName("calibrateCameraMenuItem"); // NOI18N
-    calibrateCameraMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    calibrateCameraMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         calibrateCameraMenuItemActionPerformed(evt);
       }
     });
@@ -1489,10 +1428,8 @@ public class MainView extends javax.swing.JFrame
 
     jMenuItem1.setText(resourceMap.getString("jmDownloadSettings.text")); // NOI18N
     jMenuItem1.setName("jmDownloadSettings"); // NOI18N
-    jMenuItem1.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmDownloadSettingsActionPerformed(evt);
       }
     });
@@ -1500,10 +1437,8 @@ public class MainView extends javax.swing.JFrame
 
     jmImportSettings.setText(resourceMap.getString("jmImportSettings.text")); // NOI18N
     jmImportSettings.setName("jmImportSettings"); // NOI18N
-    jmImportSettings.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jmImportSettings.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmImportSettingsActionPerformed(evt);
       }
     });
@@ -1511,10 +1446,8 @@ public class MainView extends javax.swing.JFrame
 
     jmExportSettings.setText(resourceMap.getString("jmExportSettings.text")); // NOI18N
     jmExportSettings.setName("jmExportSettings"); // NOI18N
-    jmExportSettings.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jmExportSettings.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmExportSettingsActionPerformed(evt);
       }
     });
@@ -1525,10 +1458,8 @@ public class MainView extends javax.swing.JFrame
 
     editMappingMenuItem.setText(resourceMap.getString("editMappingMenuItem.text")); // NOI18N
     editMappingMenuItem.setName("editMappingMenuItem"); // NOI18N
-    editMappingMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    editMappingMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         editMappingMenuItemActionPerformed(evt);
       }
     });
@@ -1536,10 +1467,8 @@ public class MainView extends javax.swing.JFrame
 
     jmManageLaserprofiles.setText(resourceMap.getString("jmManageLaserprofiles.text")); // NOI18N
     jmManageLaserprofiles.setName("jmManageLaserprofiles"); // NOI18N
-    jmManageLaserprofiles.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jmManageLaserprofiles.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmManageLaserprofilesActionPerformed(evt);
       }
     });
@@ -1547,10 +1476,8 @@ public class MainView extends javax.swing.JFrame
 
     materialMenuItem.setText(resourceMap.getString("materialMenuItem.text")); // NOI18N
     materialMenuItem.setName("materialMenuItem"); // NOI18N
-    materialMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    materialMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         materialMenuItemActionPerformed(evt);
       }
     });
@@ -1558,10 +1485,8 @@ public class MainView extends javax.swing.JFrame
 
     jMenuItem2.setText(resourceMap.getString("jMenuItem2.text")); // NOI18N
     jMenuItem2.setName("jMenuItem2"); // NOI18N
-    jMenuItem2.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jMenuItem2ActionPerformed(evt);
       }
     });
@@ -1573,10 +1498,8 @@ public class MainView extends javax.swing.JFrame
     java.util.ResourceBundle bundle1 = java.util.ResourceBundle.getBundle("de.thomas_oster/visicut/gui/resources/MainView"); // NOI18N
     jmPreferences.setText(bundle1.getString("PREFERENCES")); // NOI18N
     jmPreferences.setName("jmPreferences"); // NOI18N
-    jmPreferences.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jmPreferences.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmPreferencesActionPerformed(evt);
       }
     });
@@ -1589,10 +1512,8 @@ public class MainView extends javax.swing.JFrame
 
     jmInstallInkscape.setText(resourceMap.getString("jmInstallInkscape.text")); // NOI18N
     jmInstallInkscape.setName("jmInstallInkscape"); // NOI18N
-    jmInstallInkscape.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jmInstallInkscape.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmInstallInkscapeActionPerformed(evt);
       }
     });
@@ -1600,10 +1521,8 @@ public class MainView extends javax.swing.JFrame
 
     jmInstallIllustrator.setText(resourceMap.getString("jmInstallIllustrator.text")); // NOI18N
     jmInstallIllustrator.setName("jmInstallIllustrator"); // NOI18N
-    jmInstallIllustrator.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    jmInstallIllustrator.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         jmInstallIllustratorActionPerformed(evt);
       }
     });
@@ -1618,10 +1537,8 @@ public class MainView extends javax.swing.JFrame
     manualMenuItem.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
     manualMenuItem.setText(resourceMap.getString("manualMenuItem.text")); // NOI18N
     manualMenuItem.setName("manualMenuItem"); // NOI18N
-    manualMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    manualMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         manualMenuItemActionPerformed(evt);
       }
     });
@@ -1629,10 +1546,8 @@ public class MainView extends javax.swing.JFrame
 
     wikiMenuItem.setText(resourceMap.getString("wikiMenuItem.text")); // NOI18N
     wikiMenuItem.setName("wikiMenuItem"); // NOI18N
-    wikiMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    wikiMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         wikiMenuItemActionPerformed(evt);
       }
     });
@@ -1644,10 +1559,8 @@ public class MainView extends javax.swing.JFrame
     aboutMenuItem.setAction(actionMap.get("showAboutDialog")); // NOI18N
     aboutMenuItem.setText(resourceMap.getString("aboutMenuItem.text")); // NOI18N
     aboutMenuItem.setName("aboutMenuItem"); // NOI18N
-    aboutMenuItem.addActionListener(new java.awt.event.ActionListener()
-    {
-      public void actionPerformed(java.awt.event.ActionEvent evt)
-      {
+    aboutMenuItem.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
         aboutMenuItemActionPerformed(evt);
       }
     });
@@ -3460,6 +3373,7 @@ private void projectorActiveMenuItemActionPerformed(java.awt.event.ActionEvent e
   private javax.swing.JPanel jPanel6;
   private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JScrollPane jScrollPane2;
+  private javax.swing.JScrollPane jScrollPane3;
   private javax.swing.JSeparator jSeparator1;
   private javax.swing.JPopupMenu.Separator jSeparator10;
   private javax.swing.JPopupMenu.Separator jSeparator2;
